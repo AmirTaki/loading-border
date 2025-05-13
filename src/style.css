@@ -25,6 +25,8 @@ body,
     width: 350px;
     border-radius: 16px;
     background-color: #000;
+    /* overlay */
+    overflow: hidden;
 }
 
 .container::before{
@@ -54,5 +56,6 @@ body,
     position: absolute;
     height: 440px;
     width: 340px;
-    background-color: red;
+    border-radius: 12px;
+    background-color: #131221;
 }
