@@ -13,7 +13,8 @@ body {
 
 }
 body, 
-.container {
+.container,
+.overlay {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +33,8 @@ body,
 .container::before{
     content : "";
     position: absolute;
-    height: 550px;
-    width: 550px;
+    height: 650px;
+    width: 650px;
     background-image: conic-gradient(transparent, transparent, transparent ,#fff );
 }
 
@@ -56,6 +57,9 @@ body,
     position: absolute;
     height: 440px;
     width: 340px;
+    font-size: 40px;
+    font-weight: 500;
+    color : #fff;
     border-radius: 12px;
     background-color: #131221;
 }
