@@ -5,5 +5,10 @@ let perVal = 0;
 
 let increament = setInterval(()=>{
     perVal++;
-    console.log(perVal)
-},1000)
+    percent.textContent = `${perVal}%`
+
+    if (perVal == 100){
+        clearTimeout(increament)
+        container.classList.remove('active')
+    }
+},10)
