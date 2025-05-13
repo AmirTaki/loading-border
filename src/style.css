@@ -43,7 +43,7 @@ body,
 }
 
 .container.active:before {
-    /* animation: rotate 4s linear infinite; */
+    animation: rotate 4s linear infinite;
 }
 
 @keyframes rotate {
