@@ -6,3 +6,15 @@
     box-sizing: border-box;
     font-family: "Poopins", sans-serif;
 }
+
+body {
+    height: 100vh;
+    background-color: #131221;
+}
+
+.container{
+    position: relative;
+    height: 450px;
+    width: 350px;
+    background-color: #000;
+}
