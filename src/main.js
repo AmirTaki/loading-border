@@ -11,4 +11,4 @@ let increament = setInterval(()=>{
         clearTimeout(increament)
         container.classList.remove('active')
     }
-},10)
+},200)
