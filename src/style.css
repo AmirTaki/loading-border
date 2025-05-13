@@ -22,3 +22,11 @@ body {
     border-radius: 16px;
     background-color: #000;
 }
+
+.container::before{
+    content : "";
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #fff;
+}
