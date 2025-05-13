@@ -34,3 +34,7 @@ body,
     width: 550px;
     background-image: conic-gradient(transparent, transparent, transparent ,#fff );
 }
+
+.container.active {
+    animation: rotate 4s linear infinite;
+}
