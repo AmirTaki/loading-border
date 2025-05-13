@@ -48,3 +48,11 @@ body,
     }
     
 }
+
+
+.container .overlay {
+    position: absolute;
+    height: 440px;
+    width: 340px;
+    background-color: red;
+}
